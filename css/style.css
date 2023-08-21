@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.up{
+    background-color: #26262609;
+    overflow: auto;
+    font-style: normal;
+    padding: 15px 2rem;
+    font-weight: 300;
+    width: 100%;
+    
+}
+
+
+
+.up-left{
+    float: left;
+}
+
+.up-right{
+    float: right;
+}
+
+.up-left a{
+    font-size: 15px;
+    color: #666666;
+    margin-right: 24px;
+}
+
+.up-left a:hover{
+    text-decoration: underline;
+}
+
+.career:hover{
+    background-color: #0056c1;
+    color: #fff!important;
+    text-decoration: none!important;
+    transition: 2ms;
+}
+
+.up-right span{
+    font-size: 15px;
+    color: #666666;
+    margin-right: 24px;
+}
+
+.up-right a{
+    font-size: 15px;
+    color: #666666;
+}
+
+
+.career{
+    border: 1.5px solid #0056c1;
+    border-radius: 40px;
+    color: #0056c1!important;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+.up-right{
+    font-size: 15px;
+    color: #666666;
+    margin-left: 24px;
+}
+
+.middle{
+    height:74px;
+    padding: 15px 2rem;
+    overflow: hidden;
+}
+
+.middle-left{
+    float: left;
+}
+
+.middle-right{
+    float: right;
+}
+
+.middle img{
+    height: 50px;
+    vertical-align: middle;
+}
+
+
+.middle-left a{
+    font-size: 15px;
+    color: #666666;
+    font-style: normal;
+    margin-right: 3rem;
+}
+
+
+.middle-left a:hover{
+    font-weight: bold;
+    transition: 2ms;
+}
+
+.middle-right a{
+    font-size: 15px;
+    color: #0056c1;
+    font-style: normal;
+}
+
+
+.down{
+    padding: 15px 2rem;
+
+}
+
+.down a{
+    color: #17253A;
+    font-size: 15px;
+    font-style: normal;
+    margin-right: 24px;
+    
+}
+
+
+
+
+.theme {
+    
+    padding: 6rem;
+    background-color: #f5f5f5;
+}
+
+.theme h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    overflow: hidden;
+}
+
+.card {
+    background-color: #ffffff; 
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px);
+    height: 450px;
+    position: relative;
+    
+}
+
+.pic img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h4{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+.content p{
+    font-size: 15px;
+    color: #666666;
+    margin: 10px 0;
+}
+
+.content a{
+    color: #262626;
+    font-size: 16px;
+    position: absolute;
+    bottom: 25px;
+}
